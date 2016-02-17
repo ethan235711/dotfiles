@@ -7,3 +7,12 @@
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/matchit"]
+	path = .vim/bundle/matchit
+	url = https://github.com/tmhedberg/matchit.git
+[submodule ".vim/bundle/vim-python-matchit"]
+	path = .vim/bundle/vim-python-matchit
+	url = https://github.com/voithos/vim-python-matchit.git
+[submodule ".vim/bundle/supertab"]
+	path = .vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
