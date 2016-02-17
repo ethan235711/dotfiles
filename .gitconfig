@@ -1,34 +1,17 @@
-#git configuration file
 [user]
 	name = Ethan Smith
-	email = ethan.smith@schrodinger.com
-	Editor = vim
+    email = ethan.smith@schrodinger.com
 [alias]
     ch = checkout
     co = commit
     st = status
     br = branch
     hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    histall = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short master
     type = cat-file -t
     dump = cat-file -p
+	lg = log --format=oneline
+	slog = log --pretty=format:\"%C(auto)%h %s %d\"
+	reh = reset --hard
 [push]
-	default = current
-[pull]
-	default = current
-[color]
-	ui = true
-[color "branch"]
-       current = yellow reverse
-       local = yellow
-       remote = green
-[color "diff"]
-       meta = yellow bold
-       frag = magenta bold
-       old = red bold
-       new = green bold
-[color "status"]
-       added = yellow
-       changed = green
-       untracked = cyan
-[core]
-	excludesfile = /home/esmith/.gitignore_global
+	default = simple
