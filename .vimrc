@@ -1,3 +1,6 @@
+" Install of pathogen
+execute pathogen#infect()
+
 " turn on color syntax
 syntax on
 
@@ -18,7 +21,4 @@ set shiftwidth=4
 
 " always use spaces instead of tab character
 set expandtab 
-
-" Install of pathogen
-execute pathogen#infect()
 

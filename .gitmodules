@@ -1,0 +1,6 @@
+[submodule ".vim/bundles/tabular"]
+	path = .vim/bundles/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule ".vim/bundle/tabular"]
+	path = .vim/bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
