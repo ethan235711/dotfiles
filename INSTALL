@@ -8,7 +8,6 @@ ln -s ${BASEDIR}/.bash_functions .bash_functions
 ln -s ${BASEDIR}/.bashrc .bashrc
 
 # git
-ln -s ${BASEDIR}/.git .git
 ln -s ${BASEDIR}/.git-completion.sh .git-completion.sh
 ln -s ${BASEDIR}/.gitconfig .gitconfig
 ln -s ${BASEDIR}/.gitignore_global .gitignore_global
