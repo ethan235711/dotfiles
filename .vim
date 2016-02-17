@@ -1,1 +1,0 @@
-/home/esmith/src/vim/.vim

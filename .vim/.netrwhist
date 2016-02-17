@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/esmith/test_python'
+let g:netrw_dirhist_2='/Users/esmith/31005_testing/stu_26889_run_2015-05-27_001'
+let g:netrw_dirhist_3='/home/esmith/.kde/share/apps/kwallet'
+let g:netrw_dirhist_4='/home/esmith/canvas_svm_testing/STU_tests/stu_template'
