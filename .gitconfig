@@ -13,5 +13,6 @@
 	lg = log --format=oneline
 	slog = log --pretty=format:\"%C(auto)%h %s %d\"
 	reh = reset --hard
+    dc = diff --cached
 [push]
 	default = simple
