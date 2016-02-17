@@ -61,6 +61,7 @@ fi
 if [ `uname -n | grep pdx-mbp` ]; then 
 	echo "You are on your Mac"
 	lb
+    export SCHRODINGER_THIRDPARTY=/opt/schrodinger/thirdparty/  
     # makes Schrodinger use temp directory on /tmp of local host 
     # instead of on home
     export SCHRODINGER_TEMP_PROJECT=/tmp
@@ -71,6 +72,7 @@ elif [ `uname -n | grep pdx-desk-l29` ]; then
 	echo "You are on your Linux machine"
 	lb
 
+    export SCHRODINGER_THIRDPARTY=/scr/thirdparty/
     export PATH=$PATH:/scr/pymol/
     # makes Schrodinger use temp directory on /scr of local host 
     # instead of on home
@@ -170,3 +172,7 @@ if [ $PLAT == "Linux" ]; then
     alias p5='cd /scr/gui_tests/priority_5/'
 fi
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/esmith/.sdkman"
+[[ -s "/Users/esmith/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/esmith/.sdkman/bin/sdkman-init.sh"
