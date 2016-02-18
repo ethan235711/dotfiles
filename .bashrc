@@ -79,6 +79,7 @@ elif [ `uname -n | grep pdx-desk-l29` ]; then
     export SCHRODINGER_TEMP_PROJECT=/scr 
     export PATH=/utils/bin:$PATH
     export PATH=/home/esmith/src/:$PATH
+    export PATH=/usr/local/bin/ruby:$PATH
 
     # post bash 4.2 this is required for tab completion to work
     shopt -s direxpand
@@ -176,3 +177,5 @@ fi
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/esmith/.sdkman"
 [[ -s "/Users/esmith/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/esmith/.sdkman/bin/sdkman-init.sh"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
