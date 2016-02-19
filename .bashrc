@@ -164,6 +164,8 @@ alias cdjs='cd /dstore/atlassian/jira/atlassian-jira/WEB-INF/classes/'
 #--------------------------------------
 if [ $PLAT == "Darwin" ]; then
 	alias tin='open -a Tincta'
+    # Use custom version of vim 7.4 built with python to enable use of UltiSnips plugin on Mac
+    alias vi='/usr/local/bin/vim'
 fi
 
 if [ $PLAT == "Linux" ]; then
@@ -171,6 +173,9 @@ if [ $PLAT == "Linux" ]; then
 	alias w03='rdesktop -a 32 -g 1550x1100 pdx-desk-w03' # Note that -a 32 is required for MAE graphics
     alias p1='cd /scr/gui_tests/priority_1/'
     alias p5='cd /scr/gui_tests/priority_5/'
+    # Use custom version of vim 7.4 built with python to enable use of UltiSnips plugin on Linux
+    alias vi='$HOME/bin/vim'
+
 fi
 
 
