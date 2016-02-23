@@ -15,4 +15,4 @@
 	reh = reset --hard
     dc = diff --cached
 [push]
-	default = simple
+	default = matching
