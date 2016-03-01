@@ -26,8 +26,8 @@ fi
 #--------------------------------------
 
 # These local variables should be reset whenever a new build comes out.
-BUILD="12" 
-BRANCH="16-1"
+BUILD="04" 
+BRANCH="16-2"
 
 # $PLAT can either be bob, Darwin, or Linux
 if [ `uname -n | grep -i bob` ]; then
