@@ -68,6 +68,8 @@ if [ `uname -n | grep pdx-mbp` ]; then
     export PATH=$PATH:/Applications/MacPyMOL.app/Contents/MacOS/MacPyMOL
 #    export PATH=$PATH:/Applications/PyMOLX11Hybrid.app/Contents/MacOS/MacPyMOL
     export PATH=/home/esmith/src/:$PATH
+    # Allows git to use my chosen VIM version for commits
+    export EDITOR='/usr/local/bin/vim'
 elif [ `uname -n | grep pdx-desk-l29` ]; then
 	echo "You are on your Linux machine"
 	lb
