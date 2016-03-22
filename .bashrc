@@ -130,6 +130,7 @@ PS1="\n[${red}\u${red}@\h${NC}:${blue}(\$(git branch 2>/dev/null | grep '\*' | s
 # Platform Independent Aliases
 #--------------------------------------
 
+alias l29='ssh pdx-desk-l29'
 alias dush='du -sh *'
 alias df='df -h'
 alias sb='source ~/.bashrc'
