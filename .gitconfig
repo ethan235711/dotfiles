@@ -16,3 +16,5 @@
     dc = diff --cached
 [push]
 	default = matching
+[pull]
+    rebase = true
